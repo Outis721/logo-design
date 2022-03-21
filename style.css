@@ -1,0 +1,200 @@
+
+
+/* GLobal Vew */
+
+body {
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: #EBEBEB;
+    color: white;
+
+
+}
+
+a {
+
+color: white;
+text-decoration: none;
+
+
+}
+.nav {
+background-color: rgb(71, 66, 66);
+min-height: 100px;
+margin-bottom: 40px;
+position: fixed;
+width: 100%;
+
+}
+
+.dropboxer {
+    display: none;
+}
+
+header {
+
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.droper {
+display: none;
+
+
+}
+
+.linker {
+    font-size: small;
+
+
+
+}
+.crimson-text {
+    font-size: smaller;
+
+
+
+}
+
+nav {
+display: flex;
+    
+
+    
+
+}
+
+
+
+
+
+
+
+.box {
+    border: 2px solid #b6c2a4;
+    padding: 7px 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.container {
+
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+
+
+}
+
+
+
+.col {
+
+      
+       background-color: rgb(10, 138, 138);        
+        width: 30%;
+        margin-bottom: 40px;
+        
+
+}
+
+.col p {
+
+color: white;
+font-size: 0.825rem;
+padding: 20px 25px;
+line-height: 1.25rem;
+
+
+
+}
+
+
+.col img {
+
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+    .col {
+        width: 45%;
+        
+    }
+
+
+    nav {
+        display: none;
+    
+
+
+    }
+
+
+    .dropboxer {
+
+        display: block;
+        position: relative;
+    
+
+
+    }
+
+
+    .nav {
+
+        position: relative;
+
+
+
+    }
+
+    .linker {
+
+        
+        
+
+    }
+
+
+    .droper {
+        display: inline;
+        width: 15%;
+        margin-left: 100%;
+        
+    
+    }
+
+}
+
+
+
+/* Mobile View */
+@media (max-width: 400px) {
+
+    .col {
+        width: 100%;
+        background-color: black;
+    }
+
+
+}
